@@ -3,3 +3,6 @@ Python model_training.py -- to train model
 Create a separate folder for docker contents. Add joblib file, requirements file, app.py and dockerfile to it.
 docker build -t iris .    --- to bild docker image
 docker run -p 5129:5129 iris  --- to run docker image and expose port 5129 inside container to host.
+
+
+new updates
